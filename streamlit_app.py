@@ -20,7 +20,7 @@ else:
     client = OpenAI(api_key=openai_api_key)
 
     # Let the user upload a file via `st.file_uploader`.
-    accept_multiple_files = True
+    
     uploaded_file = st.file_uploader(
         "Adicione seus arquivos (PDF)", type=['.pdf'],
          accept_multiple_files = True
