@@ -22,7 +22,8 @@ else:
     # Let the user upload a file via `st.file_uploader`.
     accept_multiple_files = True
     uploaded_file = st.file_uploader(
-        "Upload a document (.txt or .md)", type=("txt", "md")
+        "Adicione seus arquivos (PDF)", type=['.pdf'],
+         accept_multiple_files = True
     )
 
     # Ask the user for a question via `st.text_area`.
