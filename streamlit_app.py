@@ -23,6 +23,7 @@ else:
     
     uploaded_file = st.file_uploader(
         "Upload a document (.txt or .md)", type=("txt", "md")
+        accept_multiple_files = True
     )
 
     # Ask the user for a question via `st.text_area`.
