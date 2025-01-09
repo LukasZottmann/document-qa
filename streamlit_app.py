@@ -21,7 +21,7 @@ else:
 
     # Let the user upload a file via `st.file_uploader`.
     accept_multiple_files = True
-    uploaded_file = st.file_uploader(
+    uploaded_file = st.accept_multiple_files = True st.file_uploader(
         "Upload a document (.txt or .md)", type=("txt", "md")
     )
 
