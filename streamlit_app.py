@@ -21,7 +21,7 @@ else:
 
     # Let the user upload a file via `st.file_uploader`.
     uploaded_file = st.file_uploader(
-        "Upload a document (.txt or .md)", type=("txt", "pdf" "md")
+        "Upload a document (.txt or .md)", type=("txt", "pdf", "md")
     )
 
     # Ask the user for a question via `st.text_area`.
