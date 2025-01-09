@@ -26,8 +26,8 @@ else:
 
     # Ask the user for a question via `st.text_area`.
     question = st.text_area(
-        "Now ask a question about the document!",
-        placeholder="Can you give me a short summary?",
+        "Faça uma pergunta sobre os documentos!",
+        placeholder="Você consegue me fazer um resumo?",
         disabled=not uploaded_file,
     )
 
