@@ -20,8 +20,9 @@ else:
     client = OpenAI(api_key=openai_api_key)
 
     # Let the user upload a file via `st.file_uploader`.
+    accept_multiple_files = True
     uploaded_file = st.file_uploader(
-        "Upload a document (.txt or .md)", type=("txt","md")
+        "Upload a document (.txt or .md)", type=("txt", "md")
     )
 
     # Ask the user for a question via `st.text_area`.
