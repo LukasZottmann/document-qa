@@ -40,7 +40,7 @@ else:
         messages = [
             {
                 "role": "user",
-                "content": f"Here's a document: {document} \n\n---\n\n {question}",
+                "content": f"Here's some documents: {documents} \n\n---\n\n {question}",
             }
         ]
 
